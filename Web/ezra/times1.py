@@ -40,7 +40,7 @@ htmlstart = '''
         right: 10px;
         width: 100px;
         height: 100px;
-        background-color: green;
+        background-color: orange;
         border: 1px solid black;
       }
 

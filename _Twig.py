@@ -19,7 +19,7 @@ VH1 = Project.VirtualHost.Add('http:ezralearn')
 VH1.ServerName = 'ezralearn'
 VH1.DocumentRoot = './Web'
 VH1.IP = '127.0.0.1'
-VH1.Port = 8125
+VH1.Port = 8200
 
 Project.OtherData['URL_HTTP'] = VH1.URL
 

@@ -8,7 +8,17 @@ def Request(self):
   yield
 
   
-  Response = 'Hi Ezra'
+  Response = '''
+  
+Hi Ezra
+poo.
+you are not a poo.
+thats is right. 
+oops.
+why did you do that?
+
+
+'''
 
   yield Response
 

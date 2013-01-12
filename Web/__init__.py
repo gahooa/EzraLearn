@@ -1,9 +1,6 @@
 # vim:encoding=utf-8:ts=2:sw=2:expandtab
 
-from AppCove import *
-
-from AppCove.UI.Layout1 import Layout1
-import AppCove.User
+from EzraLearn import *
 
 from AppStruct.WSGI.Handler.Point import PointHandler
 from AppStruct.WSGI.Plugin import QueryString, PostForm, Cookie, SessionToken

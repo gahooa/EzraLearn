@@ -79,9 +79,9 @@ def ELIP(string, length):
 
 @ConvertToInstance
 class App(AppStruct.Application.ThreadedApp):
-  from AppCove_Local import Path, DevLevel, Identifier
-  from AppCove_Local import URL_HTTP, URL_HTTPS, CacheTime
-  from AppCove_Local import Database
+  from EzraLearn_Local import Path, DevLevel, Identifier
+  from EzraLearn_Local import URL_HTTP, URL_HTTPS, CacheTime
+  from EzraLearn_Local import Database
   
   
   #============================================================================

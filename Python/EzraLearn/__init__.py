@@ -121,8 +121,8 @@ class App(AppStruct.Application.ThreadedApp):
 #
 #      self._DB.Execute('''set search_path = "Main" ''');
 #
-#    if self._Redis == None:
-#      self._Redis = AppStruct.Database.Redis.Redis(db=App.DevLevel)
+    if self._Redis == None:
+      self._Redis = AppStruct.Database.Redis.Redis(db=App.DevLevel)
     
     self._Opened = True
 
@@ -141,14 +141,14 @@ class App(AppStruct.Application.ThreadedApp):
 #      raise RuntimeError("Database Connection Not Available.  Create one with App.Open().")
 #    return self._DB
   
-#  #============================================================================
-#  @property
-#  def Redis(self):
-#    if not self._Opened:
-#      raise RuntimeError("App has not been opened with App.Open()")
-#    if not self._Redis:
-#      raise RuntimeError("Redis Connection Not Available.  Create one with App.Open().")
-#    return self._Redis
+  #============================================================================
+  @property
+  def Redis(self):
+    if not self._Opened:
+      raise RuntimeError("App has not been opened with App.Open()")
+    if not self._Redis:
+      raise RuntimeError("Redis Connection Not Available.  Create one with App.Open().")
+    return self._Redis
 
 
 

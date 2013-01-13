@@ -10,18 +10,38 @@ def Request(self):
   W = self.HTMLResponse()
   
   W('''
-    <h1>Welcome to EzraLearn</h1>
-    
-    <p>
-      <a href="/dad/times">Dad's Times Program</a>
-    </p>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Ezra's Learning Program</title>
+        <style>
+          body {font-family: verdana; }
+        </style>
+      </head>
+      <body>
 
-    <p>
-      <a href="/ezra/times0">Ezra's Times Program (0)</a> |
-      <a href="/ezra/times1">Ezra's Times Program (1)</a> |
-      <a href="/ezra/times2">Ezra's Times Program (2)</a>
-    </p>
+        <h1>Welcome to EzraLearn</h1>
 
+        <hr />
+        
+        <h3>Dad's Stuff</h3>
+        <p>
+          <a href="/dad/times">Times Table</a> | 
+          <a href="/dad/boxes">Color Boxes</a> 
+          <br />
+          <img src="/dad/boxes.png" />
+        </p>
+
+        <hr />
+
+        <h3>Ezra's Stuff</h3>
+        <p>
+          <a href="/ezra/times0">Ezra's Times Program (0)</a> |
+          <a href="/ezra/times1">Ezra's Times Program (1)</a> |
+          <a href="/ezra/times2">Ezra's Times Program (2)</a>
+        </p>
+       </body>
+     </html>
 
     ''')
 

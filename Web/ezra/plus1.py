@@ -72,9 +72,9 @@ htmlstart = '''
     <div class="menu">
       <a href="/">Main Menu</a>
       &bull;
-      <strong><a href="/ezra/times1">Times Table</a></strong> 
+      <a href="/ezra/times1">Times Table</a> 
       &bull;
-      <a href="/ezra/plus1">Plus Table</a>
+      <strong><a href="/ezra/plus1">Plus Table</a></strong>
       &bull;
       <a href="/ezra/minus1">Minus Table</a>
     </div>
@@ -124,7 +124,7 @@ def Request(self):
    
   
   W('''
-    <h1>Times program</h1>
+    <h1>Ezra plus program</h1>
 
     <form name="F" method="get">
       Width (start, end): 
@@ -146,9 +146,7 @@ def Request(self):
     ''')
 
   W('<tr>\n')
-  W('<td><strong style="font-size: 200%;">X</strong></td>')
-    
-  
+  W('<td><strong style="font-size: 200%;">+</strong></td>')
     
   for x in range(w1,w2+1):
     W('<td><strong>' + str(x) + '</strong></td>\n')
@@ -163,7 +161,7 @@ def Request(self):
     W('<td><strong>' + str(y) + '</strong></td>\n')
     
     for x in range(w1,w2+1):
-      W('<td>' + str(x*y) + '</td>\n')
+      W('<td>' + str(x+y) + '</td>\n')
       i += 1
       if i > 10000:
         raise Exception('TOO BIG')

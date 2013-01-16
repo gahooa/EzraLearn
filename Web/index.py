@@ -26,19 +26,24 @@ def Request(self):
         
         <h3>Dad's Stuff</h3>
         <p>
-          <a href="/dad/times">Times Table</a> | 
-          <a href="/dad/boxes">Color Boxes</a> 
+          <a href="/dad/times">Times Table</a> &bull;
+          <a href="/dad/boxes">Color Boxes</a> &bull;
+          <a href="/dad/boxes_history">Color Boxes History</a> 
           <br />
-          <img src="/dad/boxes.png" />
+          <img src="/assets/boxes.png" />
         </p>
 
         <hr />
 
         <h3>Ezra's Stuff</h3>
         <p>
-          <a href="/ezra/times0">Ezra's Times Program (0)</a> |
-          <a href="/ezra/times1">Ezra's Times Program (1)</a> |
-          <a href="/ezra/times2">Ezra's Times Program (2)</a>
+          <a href="/ezra/times0">Ezra's Times Program (0)</a> 
+          &bull;
+          <a href="/ezra/times1">Ezra's Times Program (1)</a> 
+          &bull;
+          <a href="/ezra/plus1">Ezra's Plus Program (1)</a> 
+          &bull;
+          <a href="/ezra/minus1">Ezra's Minus Program (1)</a>
         </p>
        </body>
      </html>

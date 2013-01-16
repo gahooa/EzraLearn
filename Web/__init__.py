@@ -19,7 +19,6 @@ class application(PointHandler, QueryString, PostForm, SessionToken, Cookie):
   def RequestStart(self):
     App.Open()
     App.Log = self.Env.Log
-    App.Log(self.Env)
     App.Log("SessionToken:"+self.SessionToken+"; IsNew:"+str(self.SessionToken_IsNew)+';')
   
   # Uncaught exception handler

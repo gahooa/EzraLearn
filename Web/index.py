@@ -44,6 +44,8 @@ def Request(self):
           <a href="/ezra/plus1">Ezra's Plus Program (1)</a> 
           &bull;
           <a href="/ezra/minus1">Ezra's Minus Program (1)</a>
+          &bull;
+          <a href="/ezra/divide1">Ezra's Divide Program (1)</a>
         </p>
        </body>
      </html>

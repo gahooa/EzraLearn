@@ -17,7 +17,29 @@ htmlstart = '''
      
       body
       {
+        margin: 0px;
+      }
+
+      div.wrapper
+      {
         margin: 10px;
+      }
+
+      a
+      {
+        color: blue;
+      }
+
+      a:hover
+      {
+        color: red;
+      }
+
+      div.menu
+      {
+        background-color: #ccc; 
+        border-bottom: 2px solid #666; 
+        padding: 4px;
       }
 
       table td
@@ -40,16 +62,30 @@ htmlstart = '''
         right: 10px;
         width: 100px;
         height: 100px;
-        background-color: orange;
+        background-color: green;
         border: 1px solid black;
       }
 
     </style>
   </head>
   <body>
+    <div class="menu">
+      <a href="/">Main Menu</a>
+      &bull;
+      <a href="/ezra/times1">Times Table</a> 
+      &bull;
+      <a href="/ezra/plus1">Plus Table</a>
+      &bull;
+      <strong><a href="/ezra/minus1">Minus Table</a></strong>
+      &bull;
+      <a href="/ezra/divide1">Divide Table</a>
+    </div>
+    <div class="wrapper">
 '''
 
 htmlend = '''
+    </div>
+
     <div class="Box"></div>
     <div class="Box"></div>
     <div class="Box"></div>

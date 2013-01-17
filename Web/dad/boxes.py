@@ -313,7 +313,7 @@ def Request(self):
         $('#Add3').click(function(e) { NewBox(0,0,'blue'); e.preventDefault(); } );
         $('#Add4').click(function(e) { NewBox(0,0,'yellow'); e.preventDefault(); } );
         $('#Add5').click(function(e) { NewBox(0,0,'purple'); e.preventDefault(); } );
-        $('#Add6').click(function(e) { NewBox(0,0,'orange'); e.preventDefault(); } );
+        $('#Add6').click(function(e) { NewBox(0,0,'#FFA500'); e.preventDefault(); } );
         
 
         $('#Reload').click(function(e)

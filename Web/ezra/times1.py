@@ -62,7 +62,7 @@ htmlstart = '''
         right: 10px;
         width: 100px;
         height: 100px;
-        background-color: orange;
+        background-color: #ADADAD;
         border: 1px solid black;
       }
 
@@ -77,6 +77,8 @@ htmlstart = '''
       <a href="/ezra/plus1">Plus Table</a>
       &bull;
       <a href="/ezra/minus1">Minus Table</a>
+      &bull;
+      <a href="/ezra/divide1">Divide Table</a>
     </div>
     <div class="wrapper">
 '''

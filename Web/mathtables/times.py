@@ -32,7 +32,7 @@ def Request(self):
       font-size: 12pt;
     }
 
-    div.Box
+    div._box
     {
       position: absolute;
       top: 10px;
@@ -41,6 +41,7 @@ def Request(self):
       height: 100px;
       background-color: #ADADAD;
       border: 1px solid black;
+      border-radius: 16px;
     }
 
 
@@ -48,7 +49,7 @@ def Request(self):
   #============================================================================
   self.UI.Script('''
     $(function(){
-      $('div.Box').draggable();
+      $('div._box').draggable();
     });
 
     ''')
@@ -102,6 +103,8 @@ def Request(self):
 
   W('</table>\n')
   
+  
+  W('<div class="_box"></div>')
 
   yield self.UI
 

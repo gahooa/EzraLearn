@@ -72,21 +72,23 @@ class application(PointHandler, QueryString, PostForm, SessionToken, Cookie):
 def Init(self):
   
   yield
-  self.Layout = self.Response(EzraLearn.UI.Desktop)
+  self.UI = self.Response(EzraLearn.UI.Desktop)
   
-  self.Layout.CSS.Add('//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css')
-  self.Layout.CSS.Add('/assets/Site.css?' + App.CacheTime)
+  self.UI.CSS.Add('//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css')
+  self.UI.CSS.Add('/assets/Site.css?' + App.CacheTime)
   
-  self.Layout.JS.Add('//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js')
-  self.Layout.JS.Add('//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js')
-  self.Layout.JS.Add('/assets/Site.js?' + App.CacheTime)
+  self.UI.JS.Add('//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js')
+  self.UI.JS.Add('//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js')
+  self.UI.JS.Add('/assets/Site.js?' + App.CacheTime)
 
   
-  self.Layout.TitlePrefix = 'EzraLearn'
-  self.Layout.Nav1.Add('/', Name='Home') 
-  self.Layout.Nav2.Add('/', Name='Home') 
-  self.Layout.Error.Add('hi')
-  self.Layout.Info.Add('bye')
+  self.UI.TitlePrefix = 'EzraLearn'
+  
+  self.UI.Nav1.Add('/', Name='Home') 
+  self.UI.Nav1.Add('/mathtables/times', Name='Math Tables') 
+  self.UI.Nav1.Add('/dad/boxes', Name='Boxes') 
+  self.UI.Nav1.Add('/dad/boxes_history', Name='Boxes History') 
+
 
 
   yield

@@ -257,7 +257,7 @@ Layout Styles
 #UI_Nav1 a
 {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 24px;
   color: #fff;
   text-decoration: none;
   width: auto;
@@ -279,7 +279,7 @@ Layout Styles
 #UI_Nav2 a
 {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 24px;
   color: #fff;
   text-decoration: none;
   width: auto;

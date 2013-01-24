@@ -7,7 +7,7 @@ from EzraLearn import *
 def Request(self):
   yield
 
-  self.Layout.Body('''
+  self.UI.Body('''
     <h1>Welcome to EzraLearn</h1>
 
     <hr />
@@ -38,6 +38,6 @@ def Request(self):
 
     ''')
 
-  yield self.Layout
+  yield self.UI
 
 

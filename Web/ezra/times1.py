@@ -123,7 +123,6 @@ def Request(self):
   W = self.HTMLResponse()
   W(htmlstart)
       
-   
   
   W('''
     <h1>Times program</h1>

@@ -1,7 +1,10 @@
 /*
   vim:encoding=utf-8:ts=2:sw=2:expandtab
 */
- 
+
+/* ************************************************************************* */
+/* CSS RESET                                                                 */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -60,11 +63,11 @@ table {
   padding: 0px;
   text-decoration: none; }
 
-/*****************************************************************************/
+
+/* ************************************************************************* */
+/* Core Styles                                                               */
 
 body {
-  margin: 10px;
-  padding: 0;
   font-family: Verdana, Helvetica, sans-serif; 
   font-size: 10pt;
   line-height: 1.2; 
@@ -230,7 +233,115 @@ input[type=checkbox]
   margin: 2px;
 }
 
-/*****************************************************************************/
+
+/**************************************************************************** 
+Layout Styles 
+*/
+
+
+#UI_Header
+{
+  padding: 6px;
+  background-color: #9cf;
+  font-size: 16pt;
+}
+
+#UI_Nav1
+{
+  background-color: #58c;
+  font-weight: bold;
+  padding: 6px;
+  font-size: 12pt;
+}
+
+#UI_Nav1 a
+{
+  display: inline-block;
+  margin-right: 8px;
+  color: #fff;
+  text-decoration: none;
+  width: auto;
+}
+
+#UI_Nav1 a:hover
+{
+  color: yellow;
+  text-decoration: underline;
+}
+
+#UI_Nav2
+{
+  background-color: #358;
+  padding: 6px;
+  font-size: 10pt;
+}
+
+#UI_Nav2 a
+{
+  display: inline-block;
+  margin-right: 8px;
+  color: #fff;
+  text-decoration: none;
+  width: auto;
+}
+
+#UI_Nav2 a:hover
+{
+  color: yellow;
+  text-decoration: underline;
+}
+
+#UI_Content
+{
+  margin: 10px;
+}
+
+#UI_Error
+{
+  margin: 8px 0px; 
+  border: 8px solid #f00; 
+  padding: 6px; 
+  background-color: #fdd;
+}
+
+#UI_Error > div
+{
+  margin-bottom: 4px; 
+  font-weight: bold;
+}
+
+#UI_Error > ul
+{
+  margin-left: 10px; 
+}
+
+#UI_Info
+{
+  margin: 8px 0px; 
+  border: 8px solid #090; 
+  padding: 6px; 
+  background-color: #dfd;
+}
+
+#UI_Info > div
+{
+  margin-bottom: 4px; 
+  font-weight: bold;
+}
+
+#UI_Info > ul
+{
+  margin-left: 10px; 
+}
+
+
+
+
+
+
+/**************************************************************************** 
+Layout Styles 
+*/
 
 table.List th
 {
@@ -349,116 +460,4 @@ td.CUR, td.NUM
 
 /*****************************************************************************/
 
-
-
-/*****************************************************************************/
-/* Styles for the HOT TRANSFER TABLE 1 (ht1)                                 */
-
-table.ht1
-{
-  width: 100%;
-  min-width: 500px;
-  margin: 10px 0;
-}
-
-table.ht1 td, table.ht1 th
-{
-  padding: 16px;
-  border: 1px solid #ccc;
-  border-collapse: collapse;
-  text-align: center;
-  vertical-align: middle;
-}
-
-table.ht1 th
-{
-}
-
-table.ht1 th > div
-{
-  width: 100%;
-  height: 20px;
-}
-
-table.ht1 td > div 
-{
-  width: 100%;
-  height: 40px;
-  background-color: transparent;
-  position: relative;
-}
-
-div.ht1_time
-{
-  display: inline-block;
-  width: 24%;
-  height: 100%; 
-  text-align: left;
-}
-
-/* TCM On */
-div.ht1_tcmon
-{
-  position: absolute;
-  height: 18px;
-  bottom: 0;
-  background-color: #6383FF; 
-}
-
-/* User On */
-div.ht1_usron
-{
-  position: absolute;
-  top: 0;
-  bottom: 20px;
-  background-color: #2DA315; 
-}
-
-/* Hot Transfer */
-div.ht1_trans
-{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  background-color: #FF00F7; 
-  width: 1%;
-}
-
-
-
-/*****************************************************************************/
-/*****************************************************************************/
-/*****************************************************************************/
-
-.Callout_Box_Positive
-{
-  padding: 10px;
-  background-color: #007100;
-  border-radius: 4px;
-  border: 1px solid #41647B;
-  display: inline-block;
-  width: auto;
-  font-size: 22px;
-  color: #FEFFF4;
-}
-
-.Callout_Box_Negative  
-{
-  padding: 10px;
-  background-color: #710000;
-  border-radius: 4px;
-  border: 1px solid #41647B;
-  display: inline-block;
-  width: auto;
-  font-size: 22px;
-  color: #FEFFF4;
-}
-
-
-/* Alert Message */
-
-.alert
-{
-  color: #C3240F;
-}
 

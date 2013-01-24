@@ -5,6 +5,8 @@ from EzraLearn import *
 from AppStruct.WSGI.Handler.Point import PointHandler
 from AppStruct.WSGI.Plugin import QueryString, PostForm, Cookie, SessionToken
 
+import EzraLearn.UI
+
 
 ###############################################################################
 # Instances of this become the Req object.
@@ -68,7 +70,25 @@ class application(PointHandler, QueryString, PostForm, SessionToken, Cookie):
 ###############################################################################
 
 def Init(self):
+  
   yield
+  self.Layout = self.Response(EzraLearn.UI.Desktop)
+  
+  self.Layout.CSS.Add('//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css')
+  self.Layout.CSS.Add('/assets/Site.css?' + App.CacheTime)
+  
+  self.Layout.JS.Add('//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js')
+  self.Layout.JS.Add('//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js')
+  self.Layout.JS.Add('/assets/Site.js?' + App.CacheTime)
+
+  
+  self.Layout.TitlePrefix = 'EzraLearn'
+  self.Layout.Nav1.Add('/', Name='Home') 
+  self.Layout.Nav2.Add('/', Name='Home') 
+  self.Layout.Error.Add('hi')
+  self.Layout.Info.Add('bye')
+
+
   yield
 
 

@@ -5,7 +5,7 @@ from EzraLearn import *
 from AppStruct.WSGI.Handler.Point import PointHandler
 from AppStruct.WSGI.Plugin import QueryString, PostForm, Cookie, SessionToken
 
-import EzraLearn.UI
+import AppStruct.UI.CoolBlue 
 
 
 ###############################################################################
@@ -72,15 +72,10 @@ class application(PointHandler, QueryString, PostForm, SessionToken, Cookie):
 def Init(self):
   
   yield
-  self.UI = self.Response(EzraLearn.UI.Desktop)
+  self.UI = self.Response(AppStruct.UI.CoolBlue.Desktop)
   
-  self.UI.CSS.Add('//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css')
   self.UI.CSS.Add('/assets/Site.css?' + App.CacheTime)
-  
-  self.UI.JS.Add('//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js')
-  self.UI.JS.Add('//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js')
   self.UI.JS.Add('/assets/Site.js?' + App.CacheTime)
-
   
   self.UI.TitlePrefix = 'EzraLearn'
   

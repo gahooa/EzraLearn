@@ -81,8 +81,10 @@ def Init(self):
   
   self.UI.Nav1.Add('/', Name='Home') 
   self.UI.Nav1.Add('/mathtables/times', Name='Math Tables') 
+  self.UI.Nav1.Add('/mathdrill/simple', Name='Math Drill') 
   self.UI.Nav1.Add('/dad/boxes', Name='Boxes') 
   self.UI.Nav1.Add('/dad/boxes_history', Name='Boxes History') 
+  self.UI.Nav1.Add('/story/', Name='Stories') 
 
 
 

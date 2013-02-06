@@ -7,16 +7,11 @@ from EzraLearn import *
 def Request(self):
   yield
   
-  self.UI.Title = 'Ezra Story'
+  self.UI.Title = 'Eli And Ezra Go Deer Hunting'
 
   self.UI.Body('''
-    <h1>Hi, this is Ezra's Story</h1>
 
-    <hr />
-    
-    <p>Paragraph</p>
-
-    <h3>Ones a pone a time.</h3> 
+    <h3>Once a upon a time.</h3> 
     <p>
       There where too, boys one named Ezra and the other was Eli.
       Thay where hunting for deer.
@@ -53,6 +48,32 @@ def Request(self):
 
 
 <img src="http://upload.wikimedia.org/wikipedia/en/thumb/c/c2/White-tail_deer.jpg/220px-White-tail_deer.jpg" />
+
+
+
+    <p>
+      Eli and Ezra took the deer home and skined it.
+    </p>
+
+      <img src="http://upload.wikimedia.org/wikipedia/en/thumb/c/c2/White-tail_deer.jpg/220px-White-tail_deer.jpg" />
+
+
+    <p>
+     The next day thay sesend the bear and deer. 
+    </p>
+    
+    
+
+    <img src="http://upload.wikimedia.org/wikipedia/en/thumb/c/c2/White-tail_deer.jpg/220px-White-tail_deer.jpg" />
+
+
+    <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Medved_mzoo.jpg/220px-Medved_mzoo.jpg" />
+
+    <p>
+      After the deer and bear finshd being sesend Eli and Ezra had a party.
+      The end
+    </p>
+
 
 
 

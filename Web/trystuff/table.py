@@ -1,0 +1,88 @@
+# vim:encoding=utf-8:ts=2:sw=2:expandtab
+
+from EzraLearn import *
+
+
+@Expose
+def Request(self):
+  yield
+  
+  self.UI.Title = 'Math Table'
+
+  self.UI.Body('''
+    
+    <table class="List">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Chores Done?</th>
+      </tr>
+      <tr>
+        <td>Eli</td>
+        <td>10</td>
+        <td>dur</td>
+      </tr>
+      <tr>
+        <td>Ezra</td>
+        <td>8</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td>zech</td>
+        <td>6</td>
+        <td>der</td>
+      </tr>
+      <tr>
+        <td>Anna</td>
+        <td>3</td>
+        <td>no chores</td>
+      </tr>
+      <tr>
+        <td>Jenn</td>
+        <td>31</td>
+        <td>no</td>
+      </tr>
+      <tr>
+        <td>Jason</td>
+        <td>31</td>
+        <td>no</td>
+      </tr>
+      <tr>
+        <td>Lesli</td>
+        <td>44</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>iryna</td>
+        <td>1</td>
+        <td>no chores</td>
+      </tr>
+      <tr>
+         <td>lillya</td>
+        <td>0</td>
+        <td>no chores</td>
+      </tr>
+    </table>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ''')
+
+  yield self.UI
+
+

@@ -77,7 +77,7 @@ def Init(self):
   self.UI.CSS.Add('/assets/Site.css?' + App.CacheTime)
   self.UI.JS.Add('/assets/Site.js?' + App.CacheTime)
   
-  self.UI.TitlePrefix = 'EzraLearn'
+  self.UI.TitlePrefix = 'learn.gahooa.com'
   
   self.UI.Nav1.Add('/', Name='Home') 
   self.UI.Nav1.Add('/mathtables/times', Name='Math Tables') 

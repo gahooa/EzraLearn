@@ -15,41 +15,41 @@ def Request(self):
     
     
     <p>
-    There where to boyes one was Zech the other was Joe.
+    There where to boys one was Zech the other was Joe.
     </p>
-      Zech and Joe had a club but they needed to cleen there room.     
+      Zech and Joe had a club but they needed to clean their room.     
     <p>
-      Thay cleed there room and made it a club room and calld there club J&Z.
+      They cleaned their room and made it a club room and calld there club J&Z.
     </p>
     
    <p>
-     They had enames there club was the MCC.
+     They had enemies there club was the MCC.
    </p>
-      The MCC where not nice thay stole The J&Z name tags. 
+      The MCC were not nice they stole the J&Z name tags. 
     <p>   
-      Zech roght a letter to Joe it sade:Dear Joe I wold like to come to your house.  Love Zech       
+      Zech wrote a letter to Joe It said:Dear Joe I would like to come to your house.  Love Zech       
     </p>
-      Thay had to defet the MCC so they called the GCC for reinforsmits. 
+      They had to defeat the MCC,so they called the GCC for reinforcemets. 
     <p>
-      The GCC where there reinforsmentss. 
+      The GCC where there reinforcmets. 
     </p>
       
     <p>
-      The GCC had a hellcopter that wold drop water bomes.
+      The GCC had a helcopter that would drop water bombs.
     </p>
 
     <p>
-    They made maps to find out where enemees where.       
+    They made maps to find out where enemies were.       
     </p>
       The GCC had one of the maps.
     <p>
-      The J&Z as grond troops the GCC are ary troops.
+      The J&Z are grond troops the GCC are air troops.
     </p>
 
     <p>
-      The J&Z and GCC beet the MCC and put the MCC to jale. 
+      The J&Z and GCC beat the MCC and put the MCC to jail. 
     </p>
-      The J&Z got there name tags back. 
+      The J&Z got their name tags back. 
     <p>
       The end
     </p>

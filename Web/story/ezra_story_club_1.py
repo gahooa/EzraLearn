@@ -15,47 +15,47 @@ def Request(self):
     
     
     <p>
-      There where four kids named Eli and Ezra and Anya and Daniella.  
+      There were four kids named Eli, Ezra, Anya, Daniella.  
     </p>
     
     <p>
-      The kids where the GCC. GCC stands for Gaber cousins Club.
-      The kids wanted to defet there worst anmmey. 
+      The kids were the GCC. GCC stands for Garber cousins Club.
+      The kids wanted to defeat their worst enemy. 
     </p>
       
     <p>
-      The GCC worst enmmey where the JFF. 
+      The GCC worst enmey were the JFF. 
       The JFF stol all the GCC treasure. 
       They had a lot of gold.
     </p>
     
     <p>   
-      Eli and Daniella and Anya and Ezra where mad! 
-      They where making, plan so where JFF!!!!!
+      Eli, Daniella, Anya and Ezra were mad! 
+      They where making, plans so were JFF!!!!!
     </p>
     
     <p>  
-      The next day Ezra  was looking at maps and found out were the JFF ar.                      
-      The GCC wer the J&Z reinforsmentss. The GCC got a call from the J&Z.
+      The next day Ezra  was looking at maps and found out were the JFF are.
+      The GCC wer the J&Z reinforscents. The GCC got a call from the J&Z.   
     </p>
     
     <p>
-      The GCC helped the J&Z get tHE MCC to jail.
-      The JFF atacet the GCC.
+      The GCC helped the J&Z get the MCC to jail.
+      The JFF attacked the GCC.
     </p>
     
     <p>
-      The GCC wernt rety yet but they wer fast.
+      The GCC werne't redy yet but they were fast.
       The GCC won!
     </p>
     
     <p>
       but they had a big fight.
-      Eli had a big basooka, Ezra had a machingun, Anya had a hand gun, Daniella had a shotgun,
+      Eli had a big bazooka, Ezra had a machin gun, Anya had a hand gun, Daniella had a shotgun.
     </p>
     
     <p>
-      but they wer all beebee guns.
+      but they were all BB guns.
     </p>
     
     <p>

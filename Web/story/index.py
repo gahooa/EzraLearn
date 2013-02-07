@@ -21,22 +21,22 @@ def Request(self):
     <hr />
     
     <h2>Zech And Joe Make A Club</h2>
-    <p>A story about Zech and Joe Making A Club And Deffeting There Worst Enmey!</p>
+    <p>A story about Zech and Joe Making A Club And Defeating Their Worst Enemy!</p>
     <a href="/story/zech_joe_club_1">Read the Story</a>
     <hr />
    
     <h2>Ezra And The Rest Of The GCC Club</h2>
-    <p>A story about Ezra and The GCC club deffeting there worst enmmey!</p>
+    <p>A story about Ezra and The GCC club Defeating their worst enemy!</p>
     <a href="/story/ezra_story_club_1">Read the Story</a>
     <hr />
    
-    <h2>Eli Story About Ploice classis</h2>
-    <p>A story about Eli takeing ploice classis with budyes.</p>
+    <h2>Eli Story About Police classis</h2>
+    <p>A story about Eli takeing police classes with buddies.</p>
     <a href="/story/eli_story_1">Read the Story</a>
     <hr />
      
-    <h2>Ezra Story About His Famley</h2>
-    <p>A story about Ezra famley</p>
+    <h2>Ezra Story About His Family</h2>
+    <p>A story about Ezra family</p>
     <a href="/story/ezra_story_2">Read the Story</a>
     <hr />
   ''')

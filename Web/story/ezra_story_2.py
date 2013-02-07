@@ -7,7 +7,7 @@ from EzraLearn import *
 def Request(self):
   yield
   
-  self.UI.Title ='Ezra,s famely. 
+  self.UI.Title = 'Ezra\'s famely.'
 
   self.UI.Body('''
 
@@ -15,23 +15,65 @@ def Request(self):
     
     
     <p>
-     Ther was a boy named ezra. 
+     There was a boy named ezra. 
+     He had a big family. 
     
-    </p>
-    
-   <p>
-   
-   </p>
-    
+       
+    <table class="List">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>age order</th>
+      </tr>
+      <tr>
+        <td>Lesli</td>
+        <td>44</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Jason</td>
+        <td>31</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Jenn</td>
+        <td>31</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Eli</td>
+        <td>11</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Ezra</td>
+        <td>9</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>zech</td>
+        <td>6</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>Anna</td>
+        <td>4</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Iryna</td>
+        <td>2</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>Lilia</td>
+        <td>0</td>
+        <td>9</td>
+      </tr>
     <p>   
-    
-    </p>
-    
-    <p>
-    
-    </p>
-    
-    </p>
+     They were on v
+     
+   </p>
 
     
     <p>

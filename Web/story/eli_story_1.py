@@ -7,7 +7,7 @@ from EzraLearn import *
 def Request(self):
   yield
   
-  self.UI.Title = 'Ezra Eli Daniella and Anya take spy classes'
+  self.UI.Title = 'Ezra Eli Daniella and Anya take ploice classes'
 
   self.UI.Body('''
 
@@ -16,12 +16,12 @@ def Request(self):
     <hr />
     
     <p>
-      There where for kids named Eli and Ezra and Anya and Daniella.  
-      They where takeing ploice classis. 
+      There were four kids named Eli, Ezra, Anya, and Daniella.  
+      They were taking police classes. 
     </p>
     
     <p>
-      Thay started a club calld GCC            
+      Thay started a club calld GCC.            
     </p>
     
     <table class="List">
@@ -60,7 +60,7 @@ def Request(self):
       <table class="List">
       <tr>
         <th>Name</th>
-        <th>Age</th>
+        <th>Gun</th>
         <th>Position</th>
       </tr>
     
@@ -78,34 +78,38 @@ def Request(self):
       <tr>
         <td>Ezra</td>
         <td>driver</td>
-        <td>arey troop</td>
+        <td>air troop</td>
       </tr>
       
      <p>   
       <td>Anya</td>
       <td>Miny gun</td>
-      <td>arey troop</td>
+      <td>air troop</td>
      </tr>
     <p>
-      Thay got a nufe munny to by beebee gunes.
-      Now that thay got beebee gunes thay will defet there worst anmy.
+      They got a enough money to by BB guns.
+      Now that they got BB guns teay will defeat their worst enemy.
     </p>
-       
-    <p>
-    
+      Their worst enemy were the DER. 
+      They stole all the GCC's money.
+     <p> 
+      They went to the castle of DER.
+      Daniella and Eli snuk into the castle of DER. 
     </p>
-
+     
+     <p>
+      Eli and Daniella captured some of the guards.
+      They threw the guards out side. 
+     </p>
+      Mean wile Anya and Ezra made the castle of DER give up.
     <p>
-    
-    </p>
-    
-    <p>
-    
+      The GCC wone the war!
     </p>
    
-    
-
-
+    <p>
+      The GCC got there money back. 
+      The End
+    </p>
 ''')
 
   yield self.UI

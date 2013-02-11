@@ -86,6 +86,7 @@ def Init(self):
   self.UI.Nav1.Add('/dad/boxes_history', Name='Boxes History') 
   self.UI.Nav1.Add('/story/', Name='Stories') 
   self.UI.Nav1.Add('/trystuff/', Name='Try Stuff') 
+  self.UI.Nav1.Add('/dad/', Name='Dad Stuff') 
 
   if App.DevLevel == 0:
     self.UI.Script('''

@@ -13,7 +13,10 @@ def Request(self):
   output = None
 
   for _ in ONCEIF(self.Post):
-    output = xp2xm.convert(data.split("\n"))
+    try:
+      output = xp2xm.convert(data.split("\n"))
+    except Exception as e:
+      self.UI.Error.Add(e)
   
   
   #============================================================================

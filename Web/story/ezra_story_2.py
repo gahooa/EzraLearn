@@ -27,8 +27,8 @@ def Request(self):
       </tr>
       <tr>
         <td>Lesli</td>
-        <td>44</td>
-        <td>1</td>
+        <td>?</td>
+        <td>?</td>
       </tr>
       <tr>
         <td>Jason</td>
@@ -70,26 +70,28 @@ def Request(self):
         <td>0</td>
         <td>9</td>
       </tr>
+    </table
+
     <p>   
-     They were on v
-     
-   </p>
-
-    
-    <p>
-    
-    </p>
-    
-    <p>
-    
+      They were on vacation.
+      They were at france.
     </p>
 
-   <p>
-    
+    <p>
+      The eiffel tower was big!
     </p>
     
     <p>
-    
+      They Missed ther grandparints.
+    </p>
+
+    <p>
+      They were haveing a good time. 
+    </p>
+       
+    <p>
+      Wen it was time to go they were happy!
+      The end
     </p>
    
 

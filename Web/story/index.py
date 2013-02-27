@@ -39,7 +39,16 @@ def Request(self):
     <p>A story about Ezra family</p>
     <a href="/story/ezra_story_2">Read the Story</a>
     <hr />
-  ''')
+ 
+       
+    <h2>Eli Story About trip</h2>
+    <p>A story about Eli takeing a trip with buddies and fighting outlaws .</p>
+    <a href="/story/eli_story_2">Read the Story</a>
+    <hr />
+
+ 
+ 
+ ''')
 
   yield self.UI
 

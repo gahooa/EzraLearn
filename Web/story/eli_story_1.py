@@ -46,13 +46,13 @@ def Request(self):
       <tr>
         <td>Ezra</td>
         <td>8</td>
-        <td>Leder</td>
+        <td>Member</td>
       </tr>
     
       <tr>
         <td>Anya</td>
         <td>7</td>
-        <td>Member</td>
+        <td>Leder</td>
       </tr>
     
     </table>

@@ -36,7 +36,7 @@ def Request(self):
       <tr>
         <td>Eli</td>
         <td>10</td>
-        <td>Member</td>
+        <td>Leader</td>
       </tr>
       
       <tr>
@@ -54,22 +54,22 @@ def Request(self):
       <tr>
         <td>Anya</td>
         <td>7</td>
-        <td>Leder</td>
+        <td>Member</td>
       </tr>
     
     </table>
        
     <p>
-    
+     They where riding horses when they heard 'stop theft'. So they went over to see what was going on.
     </p>
      
      <p> 
+      The gold mine was robed. 
     
     </p>
-     
+      Thay had a two pound bag of gold was stolen.
      <p>
-     
-     </p>
+      there wear horses tracks. thay followed them.</p>
     
     <p>
     

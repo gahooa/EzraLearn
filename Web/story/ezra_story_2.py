@@ -22,78 +22,26 @@ def Request(self):
     <table class="List">
       <tr>
         <th>Name</th>
-        <th>Age</th>
-        <th>age order</th>
+        <th>last name</th>
+        <th>age</th>
       </tr>
       <tr>
-        <td>Lesli</td>
-        <td>?</td>
-        <td>?</td>
+        <td>mr.bonkcymcbean</td>
+        <td>?bean</td>
+        <td>10000099</td>
       </tr>
-      <tr>
-        <td>Jason</td>
-        <td>31</td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>Jenn</td>
-        <td>31</td>
-        <td>3</td>
-      </tr>
-      <tr>
-        <td>Eli</td>
-        <td>11</td>
-        <td>4</td>
-      </tr>
-      <tr>
-        <td>Ezra</td>
-        <td>9</td>
-        <td>5</td>
-      </tr>
-      <tr>
-        <td>zech</td>
-        <td>6</td>
-        <td>6</td>
-      </tr>
-      <tr>
-        <td>Anna</td>
-        <td>4</td>
-        <td>7</td>
-      </tr>
-      <tr>
-        <td>Iryna</td>
-        <td>2</td>
-        <td>8</td>
-      </tr>
-      <tr>
-        <td>Lilia</td>
-        <td>0</td>
-        <td>9</td>
-      </tr>
-    </table
-
-    <p>   
-      They were on vacation.
-      They were at france.
+        
+     <p>  
+      
     </p>
 
     <p>
-      The eiffel tower was big!
+      
     </p>
     
     <p>
-      They Missed ther grandparints.
-    </p>
-
-    <p>
-      They were haveing a good time. 
-    </p>
-       
-    <p>
-      Wen it was time to go they were happy!
-      The end
-    </p>
-   
+  
+   </p>
 
     
 

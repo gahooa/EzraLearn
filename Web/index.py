@@ -10,6 +10,16 @@ def Request(self):
   self.UI.Body('''
     <h1>Welcome to EzraLearn</h1>
 
+    <h2>Save the Princess</h2>
+    <p>A new short video ...</p>
+    <iframe width="420" height="315" src="http://www.youtube.com/embed/WMV5hKCchUo" frameborder="0" allowfullscreen></iframe>
+
+    <hr />
+
+    <h2>A new video on a new drill!</h2>
+    <iframe width="560" height="315" src="http://www.youtube.com/embed/Wd6pRQgrqnk" frameborder="0" allowfullscreen></iframe>
+    
+    
     <hr />
     
     <h3>Dad's Stuff</h3>

@@ -1,0 +1,40 @@
+/*
+vim:encoding=utf-8:ts=2:sw=2:expandtab
+*/
+
+#page-top{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 75px;
+  left: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+#page-control {
+  position: fixed;
+  top: 75px;
+  right: 0;
+  bottom: 0px;
+  width: 200px;
+  background-color: #999;
+}
+
+#page-main {
+  position: fixed;
+  top: 75px;
+  right: 200px;
+  bottom: 0px;
+  left: 0;
+  background-color: #fed;
+}
+
+#game-canvas {
+  position: fixed;
+  top: 75px;
+  right: 200px;
+  bottom: 0px;
+  left: 0;
+}
